@@ -1,0 +1,37 @@
+<mvc:View controllerName="logaligroup.Customers2.controller.CustomerList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" >
+<List id="customerList" headerText="{i18n>CustomersListTitle}" class="sapUiResponsiveMargin" width="auto"
+	items="{
+			path: 'customer>/Customers',
+			sorter: {
+					path: 'Country',
+					group: true
+					}
+			}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="{i18n>CustomersListTitle}"/>
+				<ToolbarSpacer/>
+				<SearchField width="50%" search=".onFilterCustomer" />
+			</Toolbar>
+		</headerToolbar>
+		<items>
+			<ObjectListItem title="{customer>CompanyName} / {customer>ContactName}"
+							number="{ 
+							parts: [{path: 'customer>SalesAmount'}],
+							type: 'sap.ui.model.type.currency',
+							formatOptions: {
+									showMeasure: false
+											}				
+							}"
+							numberUnit="{view>/currency}"
+							numberState="{= ${customer>SalesAmount} > 1000 ? 'Success' : 'Error'}">
+			
+			<firstStatus>
+				<ObjectStatus text= "{
+					path: 'customer>ContactTitle',
+					formatter: '.formatter.statusText'}"/>
+			</firstStatus>
+			</ObjectListItem>
+		</items>
+	</List>
+</mvc:View>

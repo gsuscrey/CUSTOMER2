@@ -1,0 +1,15 @@
+<mvc:View controllerName="logaligroup.Customers2.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" >
+<Shell><!--Ajusta el LetterBox (pantalla dependiendo del dispositivo) -->	
+	<App class="myCustomCss">
+		<Page title="{i18n>TitleMain}">
+				<headerContent>
+					<Button id="helloDialogHeader" icon="sap-icon://action"  press=".onOpenDialog" class="sapUiSmallMarginEnd"></Button>
+				</headerContent>			
+				<content>
+					<mvc:XMLView viewName="logaligroup.Customers2.view.HelloPanel"/>
+					<mvc:XMLView viewName="logaligroup.Customers2.view.CustomerList"/>
+				</content>
+		</Page>
+	</App>
+ </Shell>
+</mvc:View>
