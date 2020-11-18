@@ -1,2 +1,2 @@
 # CUSTOMER2
-Customer2 SAPGUI5
+Customer2 SAPGUI5.
