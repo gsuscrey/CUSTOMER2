@@ -1,0 +1,67 @@
+[
+ {
+		"CustomerID": "ALFKI",
+		"CompanyName": "Futterkiste Alfreds",
+		"ContactName": "Maria Anders",
+		"ContactTitle": "S",
+		"Address": "Obere Str. 57",
+		"City": "Berlin",
+		"Region": null,
+		"PostalCode": "12209",
+		"Country": "Germany",
+		"Phone": "030-0074321",
+		"Fax": "030-0076545",
+		"SalesAmount": 328.750
+	}, {
+		"CustomerID": "ANATR",
+		"CompanyName": "Ana Trujillo Emparedados y helados ",
+		"ContactName": "Ana Trujillo",
+		"ContactTitle": "O",
+		"Address": "Avda. de la Constitución 2222",
+		"City": "México D.F.",
+		"Region": null,
+		"PostalCode": "05021",
+		"Country": "Mexico",
+		"Phone": "(5) 555-4729",
+		"Fax": "(5) 555-3745",
+		"SalesAmount": 1724875.9999
+	}, {
+		"CustomerID": "ANTON",
+		"CompanyName": "Moreno Antonio Taquería",
+		"ContactName": "Antonio Moreno",
+		"ContactTitle": "O",
+		"Address": "Mataderos 2312",
+		"City": "México D.F.",
+		"Region": null,
+		"PostalCode": "05023",
+		"Country": "Mexico",
+		"Phone": "(5) 555-3932",
+		"Fax": null,
+		"SalesAmount": 347.2100
+	}, {
+		"CustomerID": "AROUT",
+		"CompanyName": "Around the Horn",
+		"ContactName": "Thomas Hardy",
+		"ContactTitle": "S",
+		"Address": "120 Hanover Sq.",
+		"City": "London",
+		"Region": null,
+		"PostalCode": "WA1 1DP",
+		"Country": "UK",
+		"Phone": "(171) 555-7788",
+		"Fax": "(171) 555-6750",
+		"SalesAmount": 67584.4568
+	}, {
+		"CustomerID": "BERGS",
+		"CompanyName": "Berglunds snabbköp",
+		"ContactName": "Christina Berglund",
+		"ContactTitle": "A",
+		"Address": "Berguvsvägen 8",
+		"City": "Frankfurt",
+		"Region": null,
+		"PostalCode": "S-958 22",
+		"Country": "Germany",
+		"Phone": "030-04894325",
+		"Fax": "030-8671943",
+		"SalesAmount": 94756.4678
+	} 	]

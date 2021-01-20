@@ -1,3 +1,11 @@
 .boldElements .boldElementsText{
 	font-weight: bold;
 } 
+
+.clientRating{
+ padding: 0.75rem;	
+}
+
+.clientRating{
+	vertical-align: initial;
+}

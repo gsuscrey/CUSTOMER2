@@ -1,0 +1,22 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+    controllerName="logaligroup.Customers2.controller.Detail"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:cs ="logaligroup.Customers2.control">
+	<App>
+		<pages>
+			<Page title="{i18n>CustomerPageTitle}" showNavButton="true" navButtonPress=".onNavBack">
+				<ObjectHeader title="{customerWz>ContactName}">
+					<attributes>
+						<ObjectAttribute text="{customerWz>Address}"> </ObjectAttribute>
+						<ObjectAttribute text="{customerWz>City}"> </ObjectAttribute>
+						<ObjectAttribute text="{customerWz>PostalCode}"> </ObjectAttribute>
+						<ObjectAttribute text="{customerWz>Country}"> </ObjectAttribute>
+						<ObjectAttribute text="{customerWz>Phone}"> </ObjectAttribute>
+					</attributes>
+				</ObjectHeader>
+				<cs:CustomerRating id="rating" class="sapUiSmallMarginBeginEnd" change=".onRatingChange"/>
+		
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

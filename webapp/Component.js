@@ -32,7 +32,8 @@ sap.ui.define( //module or templates
 /***************** New atributo for Dialog xml *************************/
 
 			this._helloDialog = new HelloDialog(this.getRootControl()); //llamamos la instancia a objeto 
-			
+/***************** Usar el enrutamiento **************/
+            this.getRouter().initialize();			
 				},
 
 		exit: function(){  //Eliminamos inst cuando no se acaba la llamada al componente
